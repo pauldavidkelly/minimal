@@ -1,19 +1,19 @@
 <div class="site-hero-content text-center">
   <ul class="site-hero-content-buttons">
     <li>
-      <a href="#" class="btn btn-secondary">
+      <a href="{{ .Site.Params.banner.secondary_button_url }}" class="btn btn-secondary">
         <span class="btn-area">
           <span data-text="">
-            This is a button
+            {{ .Site.Params.banner.secondary_button }}
           </span>
         </span>
       </a>
     </li>
     <li>
-      <a href="#" class="btn btn-primary">
+      <a href="{{ .Site.Params.banner.primary_button_url }}" class="btn btn-primary">
         <span class="btn-area">
           <span data-text="">
-            This is a button
+            {{ .Site.Params.banner.primary_button }}
           </span>
         </span>
       </a>
