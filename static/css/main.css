@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background: #6ac5ec;
 }
 
 body {
@@ -7,6 +8,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
+    
 }
 
 main {
@@ -105,4 +107,29 @@ a:hover {
 
 footer {
     border-bottom: var(--border-width) solid var(--accent);
+}
+
+.site-hero-content ul{
+    margin-top: 3em;
+}
+
+.site-hero-content-buttons {
+    margin: 0;
+    padding: 0;
+}
+
+.site-hero-content-buttons li:not(:last-child) {
+    margin-right: 30px;
+}
+.site-hero-content-buttons li {
+    display: inline-block;
+}
+
+.btn {
+    font-family: montserrat,sans-serif;
+    border: none;
+    color: #fff !important;
+    padding: 20px 45px;
+    border-radius: 5;
+    background: #fd9b74;
 }

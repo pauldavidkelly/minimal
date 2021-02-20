@@ -5,9 +5,10 @@
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
         <h1>{{ .Site.Title }}</h1>
         <h2>{{ markdownify .Site.Params.Description }}</h2>
+        {{ partial "hero.html" . }}
         {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
         
     </div>
 </main>
-{{ partial "hero.html" . }}
+
 {{ partial "footer" . }}
