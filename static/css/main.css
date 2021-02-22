@@ -54,8 +54,21 @@ img {
     
 }
 
-h1, h2, h3, h4, h5, h6{
+.content img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    float:left;
+    margin:1vh;
+    border: 5px solid #fd9b74;
+}
+
+h1, h3, h4, h5, h6{
     color: #afbac4;
+}
+
+h2{
+    color:#fd9b74;
 }
 .content p{
     color:#737f8a;
@@ -85,6 +98,10 @@ a:hover {
     color: var(--accent) !important;
 }
 
+
+.navbar-nav li{
+    font-size:1.8vh;
+}
 /* Copyright message */
 
 .copyright {
