@@ -178,7 +178,7 @@ footer {
     display: inline-block;
     height: 1.15rem;
     width: 1.15rem;
-    top: 0.15rem;
+    top: 0.3rem;
     margin:0.2rem;
     position: relative;
   }
@@ -186,5 +186,5 @@ footer {
 .intro .inline-svg{
     height:6rem;
     width:6rem;
-    top:1rem;
+    top:1.5rem;
 }
