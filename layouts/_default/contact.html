@@ -7,25 +7,15 @@
       <h2 >{{.Title }}</h2>
           <img src="{{.Params.Image | absURL }}" alt="{{site.Params.author}}" class="img-norm ">
           <div class="content">
-          {{ .Content }}
-            <form action="{{ site.Params.contact_form_action }}" netlify>
-              
+            {{ .Content }}
+            <form name="contact" method="POST" action="{{ site.Params.contact_form_action }}" data-netlify="true">
+              <input type="hidden" name="form-name" value="contact" />
                 <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-              
-              
                 <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-              
-              
                 <textarea name="message" id="message" class="form-control" placeholder="Message..."></textarea>
-              
-              
                 <button class="btn btn-primary">Submit</button>
-              </div>
             </form>
-        </div>
-        </div>
-    
-    </div>
+          </div>
   </section>
   
 </main>
