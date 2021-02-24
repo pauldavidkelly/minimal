@@ -53,13 +53,21 @@ img {
     text-align:justify;
 }
 
-.content img{
+.rnd-img{
     width: 20vh;
     height: 20vh;
     border-radius: 50%;
     float:left;
     margin:1vh;
+   
+}
+
+img{
     border: 5px solid #fd9b74;
+}
+
+.img-norm{
+    border-radius:5px;
 }
 
 h1, h3, h4, h5, h6{
@@ -71,6 +79,7 @@ h2{
 }
 .content p{
     color:#737f8a;
+    text-align:justify;
 }
 
 
@@ -187,4 +196,11 @@ footer {
     height:6rem;
     width:6rem;
     top:1.5rem;
+}
+
+/* Form controls */
+
+.form-control
+{
+    margin:2rem 0rem;
 }
