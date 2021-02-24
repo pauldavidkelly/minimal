@@ -9,11 +9,10 @@
           <div class="content">
             {{ .Content }}
             <form name="contact" method="POST" action="{{ site.Params.contact_form_action }}" data-netlify="true">
-              <input type="hidden" name="form-name" value="contact" />
-                <input type="text" class="form-control" name="name" id="name" placeholder="Name">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
-                <textarea name="message" id="message" class="form-control" placeholder="Message..."></textarea>
-                <button class="btn btn-primary">Submit</button>
+              <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+              <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message..."></textarea>
+              <button class="btn btn-primary">Submit</button>
             </form>
           </div>
   </section>
