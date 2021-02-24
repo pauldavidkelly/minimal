@@ -28,6 +28,16 @@
             <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         {{ end }}
 
+        {{ "<!-- CSS Plugins -->" | safeHTML }}
+        {{ range site.Params.plugins.css }}
+        <link rel="stylesheet" href="{{ .link | absURL }}">
+        {{ end }}
+
+        {{ "<!-- JS Plugins -->" | safeHTML }}
+        {{ range site.Params.plugins.js}}
+            <script src="{{ .link | absURL }}"></script>
+        {{ end }}
+
         {{ partial "head-close" . }}
     </head>
 

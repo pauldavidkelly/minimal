@@ -4,7 +4,16 @@
     <div class="intro">
         {{ with .Site.Params.profilePic }} <img class="profile" src="{{ . }}"> {{ end }}
         <h1>{{ partial "fontawesome.html" "less-than" }}{{ .Site.Title }}{{ partial "fontawesome.html" "greater-than" }}</h1>
-        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        <!--<h2>{{ markdownify .Site.Params.Description }}</h2>-->
+        <div class="animated-text">
+            <strong class="cd-headline clip">
+              <span class="cd-words-wrapper">
+                {{ range $index, $elements:= .Site.Params.occupations }}
+                <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . }}</b>
+                {{ end }}
+              </span>
+            </strong>
+        </div>
         {{ partial "hero.html" . }}
         {{ with .Content }} <div class="homepage-content text-justify">{{ . }}</div> {{ end }}
         

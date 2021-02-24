@@ -204,3 +204,9 @@ footer {
 {
     margin:2rem 0rem;
 }
+
+/* Animated Text */
+.cd-headline.clip b{
+    font-size:1.8em;
+    color:#757575;
+}
