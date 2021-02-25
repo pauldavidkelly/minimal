@@ -7,12 +7,6 @@ tags = ["blog", "minimal", "personal", "responsive"]
 features = ["responsive"]
 min_version = "0.24.1"
 
-[params.banner]
-    primary_button        = "IT Services"
-    primary_button_url    = "services"
-    secondary_button      = "Guides, Blog"
-    secondary_button_url  = "blog"
-
 [author]
   name = "Calin Tataru"
   homepage = "https://calintat.github.io/"

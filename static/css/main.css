@@ -255,3 +255,10 @@ footer {
     width: 55px;
     transition: all 0.3s ease 0s;
   }
+
+/* Animated Text */
+.cd-headline.clip b{
+    font-size:1.8em;
+    color:#757575;
+}
+
