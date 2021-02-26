@@ -76,7 +76,7 @@ img {
    
 }
 
-img{
+.border img{
     border: 5px solid #fd9b74;
 }
 
@@ -290,11 +290,9 @@ footer p{
 }
 
 .post-block{
+    /*border:2px solid #737f8a;*/
+    margin-top: 2em;
     
-    /*border-left: 1px solid rgba(236, 239, 241, 0.07);
-    border-top: 1px solid rgba(236, 239, 241, 0.07);*/
-    border:2px solid #737f8a;
-    margin-bottom: 40px;
 }
 
 .post-block img{
