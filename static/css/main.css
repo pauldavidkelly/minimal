@@ -187,7 +187,7 @@ footer p{
     display: inline-block;
 }
 
-.btn {
+/*.btn {
     border: none;
     color: #fff !important;
     padding: 20px 45px;
@@ -199,7 +199,7 @@ footer p{
     border-color:#204d74;
     background-color:#286090;
 }
-
+*/
 /* Font Awesome styling */
 .inline-svg {
     display: inline-block;
@@ -282,3 +282,51 @@ footer p{
     color:#757575;
 }
 
+
+/* Blog posts styling */
+
+.list-head{
+    padding-bottom:2em;
+}
+
+.post-block{
+    
+    /*border-left: 1px solid rgba(236, 239, 241, 0.07);
+    border-top: 1px solid rgba(236, 239, 241, 0.07);*/
+    border:2px solid #737f8a;
+    margin-bottom: 40px;
+}
+
+.post-block img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border:none;
+}
+
+.post-block {
+    background-color: #292f36;
+    margin-bottom: 10px;
+}
+
+.post-block .content{
+    padding:20px;
+}
+
+.btn {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 0;
+    transition: all .3s ease-in 0s;
+}
+
+.btn-transparent {
+    border: 1px solid #4e595f;
+}
+
+.btn-transparent:hover, .btn-transparent:focus {
+    background-color: #286090;
+    border: 1px solid transparent;
+    color: #fff;
+}
